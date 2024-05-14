@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { PageContext } from './PageProvider'
 import { AuthContext } from './AuthProvider'
-import { PizzaContext } from './PzzaProvider'
+import { PizzaContext } from './PizzaProvider'
 
 export const usePages = () => {
 	const context = useContext(PageContext)

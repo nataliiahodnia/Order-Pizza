@@ -1,17 +1,19 @@
-import { Field, Form, Formik } from "formik";
+import { Field, Form, Formik } from 'formik'
+import { useAuth } from '../../store/hooks'
+import { toast } from 'react-toastify'
 
 export const Login = () => {
+  const { login } = useAuth();
 
   const initialValues = {
+    email: "soloha33@gmail.com",
+    password: "1234ff",
+  };
 
-  email: '',
-  password: '',
-
-  }
-
-  const handleSubmit = (values) => {
-     console.log(values);
-  }
+  const handleSubmit = values => {
+    login(values);
+    toast.success('Hello, bitch, you are logged in');
+  };
 
   return (
     <div>
@@ -20,9 +22,11 @@ export const Login = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Login now!</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              in cupiditate modi iste eligendi dolor atque voluptate corrupti?
+              Fugiat eveniet ex perferendis cumque, quibusdam dolorem dicta
+              dignissimos corporis modi magnam!Fugiat eveniet ex perferendis
+              cumque, quibusdam dolorem dicta dignissimos corporis modi magnam!
             </p>
           </div>
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
