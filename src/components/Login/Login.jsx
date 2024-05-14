@@ -38,46 +38,48 @@ export const Login = () => {
               cumque, quibusdam dolorem dicta dignissimos corporis modi magnam!
             </p>
           </div>
-          <div className="card max-w-sm shadow-2xl bg-white bg-opacity-40">
-          <Formik initialValues={initialValues} onSubmit={handleSubmit}>
-  {({ handleSubmit }) => (
-    <Form onSubmit={handleSubmit} className="card-body grid grid-cols-1 gap-6">
-      <div className="form-control">
-        <label className="label text-white">
-          <span className="label-text">Email</span>
-        </label>
-        <Field
-          name="email"
-          type="email"
-          placeholder="email"
-          className="input input-bordered text-black"
-          required
-        />
-      </div>
-      <div className="form-control">
-        <label className="label text-white">
-          <span className="label-text">Password</span>
-        </label>
-        <Field
-          name="password"
-          type="password"
-          placeholder="password"
-          className="input input-bordered text-black"
-          required
-        />
-      </div>
-      <div className="form-control">
-        <button
-          type="submit"
-          className="btn btn-primary bg-yellow-600 hover:bg-yellow-700 text-white"
-        >
-          Login
-        </button>
-      </div>
-    </Form>
-  )}
-</Formik>
-
+          <div className="card max-w-sm shadow-4xl bg-white bg-opacity-40  ">
+            <Formik initialValues={initialValues} onSubmit={handleSubmit}>
+              {({ handleSubmit }) => (
+                <Form
+                  onSubmit={handleSubmit}
+                  className="card-body grid grid-cols-1 gap-6 "
+                >
+                  <div className="form-control">
+                    <label className="label text-white">
+                      <span className="label-text">Email</span>
+                    </label>
+                    <Field
+                      name="email"
+                      type="email"
+                      placeholder="email"
+                      className="input input-bordered text-black rounded-full"
+                      required
+                    />
+                  </div>
+                  <div className="form-control">
+                    <label className="label text-white">
+                      <span className="label-text">Password</span>
+                    </label>
+                    <Field
+                      name="password"
+                      type="password"
+                      placeholder="password"
+                      className="input input-bordered text-black rounded-full"
+                      required
+                    />
+                  </div>
+                  <div className="form-control">
+                    <button
+                      type="submit"
+                      className="btn btn-primary bg-orange-600 hover:bg-orange-900 text-white rounded-full border-none"
+                    >
+                      Login
+                    </button>
+                  </div>
+                </Form>
+              )}
+            </Formik>
           </div>
         </div>
       </div>
