@@ -9,7 +9,7 @@ export const Pizzas = () => {
       }}
     >
       <div className="absolute inset-0 z[1] bg-black bg-opacity-50"></div>
-      <div>
+      <div className="relative z-[2] font-bold text-white text-8">
         <h1>Welcome to pizza!</h1>
       </div>
     </div>
