@@ -41,7 +41,7 @@ export const Login = () => {
           <div className="card max-w-sm shadow-2xl bg-white bg-opacity-40">
           <Formik initialValues={initialValues} onSubmit={handleSubmit}>
   {({ handleSubmit }) => (
-    <form onSubmit={handleSubmit} className="card-body grid grid-cols-1 gap-6">
+    <Form onSubmit={handleSubmit} className="card-body grid grid-cols-1 gap-6">
       <div className="form-control">
         <label className="label text-white">
           <span className="label-text">Email</span>
@@ -74,7 +74,7 @@ export const Login = () => {
           Login
         </button>
       </div>
-    </form>
+    </Form>
   )}
 </Formik>
 
