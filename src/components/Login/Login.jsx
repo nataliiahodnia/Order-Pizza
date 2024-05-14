@@ -1,18 +1,20 @@
-import { Field, Form, Formik } from 'formik'
-import { useAuth } from '../../store/hooks'
-import { toast } from 'react-toastify'
+import { Field, Form, Formik } from "formik";
+import { useAuth } from "../../store/hooks";
+import { toast } from "react-toastify";
 
 export const Login = () => {
   const { login } = useAuth();
 
   const initialValues = {
-    email: "soloha33@gmail.com",
-    password: "1234ff",
+    email: "admin@gmail.com",
+    password: "admin",
   };
 
-  const handleSubmit = values => {
-    login(values);
-    toast.success('Hello, bitch, you are logged in');
+  const handleSubmit = (values) => {
+    if (values.email === "admin@gmail.com" && values.password === "admin") {
+      return login(values);
+    }
+    toast.error("Invalid, bitch, data");
   };
 
   return (

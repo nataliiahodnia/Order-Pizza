@@ -1,21 +1,21 @@
-import { Login } from './components/Login/Login'
+import { Login } from "./components/Login/Login";
+import { Home } from "./pages/Home";
 import { useAuth, usePages } from "./store/hooks";
+import { Pizzas } from "./pages/Pizzas";
 
 export const App = () => {
   const { page, setPage } = usePages();
-  const { isLoggedIn } = useAuth()
+  const { isLoggedIn } = useAuth();
 
-if(!isLoggedIn) {
-  return <Login />
-}
+  if (!isLoggedIn) {
+    return <Login />;
+  }
 
-  return (
+  return ( 
     <div>
-      {page === "home" && (
-        <h1>
-          Home <button onClick={() => setPage ('ogin')}>Login</button>{" "}
-        </h1>
-      )}
+     {page === "home" && <Home />}
+     {page === "pizzas" && <Pizzas />}
     </div>
-  )
-}
+    
+    ) 
+};
