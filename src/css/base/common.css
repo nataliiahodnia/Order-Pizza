@@ -6,6 +6,7 @@
 :root {
      --white-text-color: #fafafa;
      --green-color: #17be73;
+     --light-green-color: #3bffa7;
      --dark-green-color: #127046;
      --font-color: #1c1d20;
      --cards-background-color: #242527;
@@ -24,3 +25,9 @@
      font-family: 'Inter Tight', sans-serif;
      background-color: var(--font-color);
    } 
+
+   p {
+     color: var(--white-text-color);
+     font-size: 24px;
+   }
+

@@ -1,4 +1,5 @@
 import { useAuth, usePages } from "../../store/hooks";
+import css from "./Header.module.css";
 
 export const Header = () => {
   const {user, logout} = useAuth()
@@ -9,13 +10,13 @@ export const Header = () => {
   }
 
   return (
-    <div className=" px-2 py-2 bg-red-500 text-white font-bold flex justify-between items-centre text-4xl">
-      <h3>Hello, bitch!</h3>
-      <p className="text-2xl">{user.email}</p>
-      <div className="flex gap-4 text-xl">
-        <button onClick={()=>setPage('home')}>Home</button>
-        <button onClick={()=>setPage('pizzas')}>Pizzas</button>
-      <button className='btn' onClick={handleLogout}>
+    <div className={css.containerHeader}>
+      <h3 className={css.mainTextHeader}>Hello, admin!</h3>
+      <p>{user.email}</p>
+      <div className={css.navHeader}>
+        <button className={css.navBtn} onClick={()=>setPage('home')}>Home</button>
+        <button className={css.navBtn} onClick={()=>setPage('pizzas')}>Pizzas</button>
+      <button className={css.btnLogout} onClick={handleLogout}>
         Logout</button>
       </div>
     </div>
