@@ -17,7 +17,7 @@ export const Pizzas = () => {
       className="relative min-h-screen"
       style={{
         backgroundImage:
-          "url(https://www.sadahastanesi.com/tr/public/storage/pizza-kac-kalori---pizzanin-besin-degeri.webp) ",
+          "url(https://s23209.pcdn.co/wp-content/uploads/2022/05/220310_DD_White-Pizza_312-760x1140.jpg) ",
         backgroundSize: "cover",
       }}
     >

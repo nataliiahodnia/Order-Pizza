@@ -8,7 +8,7 @@ export const Home = () => {
       className="hero min-h-screen"
       style={{
         backgroundImage:
-          "url(https://www.wyseguide.com/wp-content/uploads/2021/09/Harvest-Skillet-Pizza-15.jpg)",
+          "url(https://www.tasteofhome.com/wp-content/uploads/2018/01/EXPS_HCK17_153207_B08_26_6b.jpg?fit=1024,1024)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>

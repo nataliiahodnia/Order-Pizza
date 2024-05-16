@@ -1,5 +1,5 @@
 import { usePizza } from '../store/hooks'
-import { PizzaItem } from './PizzaItem'
+import { PizzaItem } from './PizzaItem/PizzaItem'
 
 export const PizzaList = () => {
 	const { pizzas } = usePizza()

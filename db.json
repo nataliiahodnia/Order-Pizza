@@ -1,175 +1,166 @@
 {
-     "pizzas": [
-       {
-         "id": "1",
-         "title": "Тоскана",
-         "price": 315,
-         "weight": 650,
-         "size": 30,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2023/10/19-300x300.jpg"
-       },
-       {
-         "id": "2",
-         "title": "Маргарита",
-         "price": 200,
-         "weight": 500,
-         "size": 30,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/34-1-300x300.jpg"
-       },
-       {
-         "id": "3",
-         "title": "4 сира",
-         "price": 245,
-         "weight": 420,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-16-1-300x300.jpg"
-       },
-       {
-         "id": "4",
-         "title": "Цезар",
-         "price": 315,
-         "weight": 555,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-tsezar-300x300.jpg"
-       },
-       {
-         "id": "5",
-         "title": "Гаваї",
-         "price": 235,
-         "weight": 500,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-7-1-300x300.jpg"
-       },
-       {
-         "id": "6",
-         "title": "Пепероні",
-         "price": 245,
-         "weight": 500,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-17-1-300x300.jpg"
-       },
-       {
-         "id": "7",
-         "title": "Полло",
-         "price": 420,
-         "weight": 555,
-         "size": 50,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/26-300x300.jpg"
-       },
-       {
-         "id": "8",
-         "title": "Екзотична",
-         "price": 200,
-         "weight": 650,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-14-1-300x300.jpg"
-       },
-       {
-         "id": "9",
-         "title": "Груша",
-         "price": 230,
-         "weight": 475,
-         "size": 32,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2018/05/31-1-300x300.jpg"
-       },
-       {
-         "id": "10",
-         "title": "Сицилійська",
-         "price": 420,
-         "weight": 920,
-         "size": 50,
-         "img": "https://oliopizza.com.ua/wp-content/uploads/2018/05/32-300x300.jpg"
-       }
-     ],
-     "orders": [
-       {
-         "id": "a43b",
-         "name": "Ілля",
-         "email": "Petro@mail.com",
-         "phone": "380504321618",
-         "address": "м.Одесса вул. Фонтанська 24",
-         "summary": "Давайте більше серветок!",
-         "check": true,
-         "cart": [
-           {
-             "id": "5",
-             "title": "Гаваї",
-             "price": 235,
-             "weight": 500,
-             "size": 32,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-7-1-300x300.jpg",
-             "quantity": 2
-           },
-           {
-             "id": "6",
-             "title": "Пепероні",
-             "price": 245,
-             "weight": 500,
-             "size": 32,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-17-1-300x300.jpg",
-             "quantity": 3
-           }
-         ],
-         "createdAt": "2024-05-08 12:54:41",
-         "status": "wait"
-       },
-       {
-         "id": "54ce",
-         "name": "Аліна",
-         "email": "AlinaCool2413@mail.com.ua",
-         "phone": "380504001245",
-         "address": "м.Київ вул. Перемоги 24",
-         "summary": "Ви надзвичайні!!!🔥",
-         "check": true,
-         "cart": [
-           {
-             "id": "3",
-             "title": "4 сира",
-             "price": 245,
-             "weight": 420,
-             "size": 32,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-16-1-300x300.jpg",
-             "quantity": 1
-           },
-           {
-             "id": "1",
-             "title": "Тоскана",
-             "price": 315,
-             "weight": 650,
-             "size": 30,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2023/10/19-300x300.jpg",
-             "quantity": 1
-           },
-           {
-             "id": "4",
-             "title": "Цезар",
-             "price": 315,
-             "weight": 555,
-             "size": 32,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/pitstsa-tsezar-300x300.jpg",
-             "quantity": 2
-           },
-           {
-             "id": "7",
-             "title": "Полло",
-             "price": 420,
-             "weight": 555,
-             "size": 50,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2016/11/26-300x300.jpg",
-             "quantity": 2
-           },
-           {
-             "id": "9",
-             "title": "Груша",
-             "price": 230,
-             "weight": 475,
-             "size": 32,
-             "img": "https://oliopizza.com.ua/wp-content/uploads/2018/05/31-1-300x300.jpg",
-             "quantity": 1
-           }
-         ],
-         "createdAt": "2024-05-08 12:56:56",
-         "status": "wait"
-       }
-     ]
-   }
+  "pizzas": [
+    {
+      "id": "1",
+      "title": "Toscana",
+      "price": 315,
+      "weight": 650,
+      "size": 30,
+      "img": "https://salad.com.ua/upload/resize_cache/iblock/76d/1000_1000_0/5bg18phuxwu5pgmvuhi4hh1wyynd59q4.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Маргарита",
+      "price": 200,
+      "weight": 500,
+      "size": 30,
+      "img": "https://salad.com.ua/upload/iblock/2ce/1k7azqeblpwprgickpbu49p2te5ra0xs.png"
+    },
+    {
+      "id": "3",
+      "title": "4 сира",
+      "price": 245,
+      "weight": 420,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/iblock/feb/12fp15ux66lzlh4377l6krg85vw8j1oh.png"
+    },
+    {
+      "id": "4",
+      "title": "Цезар",
+      "price": 315,
+      "weight": 555,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/resize_cache/iblock/043/1000_1000_0/z51bjsq69m6lfevisi95ruxhrwyavxwf.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Панчета Горгонзола",
+      "price": 235,
+      "weight": 500,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/resize_cache/iblock/88a/1000_1000_0/ua3t8yjpzbcjxxqz852r64mcelun7uay.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Квадро Супрема",
+      "price": 245,
+      "weight": 500,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/iblock/fb4/699ahx2e1ycwlf48sgbe8gnmm0l4bthx.png"
+    },
+    {
+      "id": "7",
+      "title": "Vege",
+      "price": 420,
+      "weight": 555,
+      "size": 50,
+      "img": "https://salad.com.ua/upload/resize_cache/iblock/90e/1000_1000_0/3iluoo6uh4zp0mvaovb4jo6mf9wjzi3b.png"
+    },
+    {
+      "id": "8",
+      "title": "Капрічоза",
+      "price": 200,
+      "weight": 650,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/iblock/64b/8b7psn9cvxfgptqwx1q2673ny41ese9i.png"
+    },
+    {
+      "id": "9",
+      "title": "Маріо",
+      "price": 230,
+      "weight": 475,
+      "size": 32,
+      "img": "https://salad.com.ua/upload/iblock/b64/ay6y0507xi9wrnax0kln333hae127svf.png"
+    },
+    {
+      "id": "10",
+      "title": "Кватро Формаджі",
+      "price": 420,
+      "weight": 920,
+      "size": 50,
+      "img": "https://salad.com.ua/upload/iblock/040/qi8d73xgx0qz5ys8ixafv2v36iarp3rf.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "a43b",
+      "name": "Ілля",
+      "email": "Petro@mail.com",
+      "phone": "380504321618",
+      "address": "м.Одесса вул. Фонтанська 24",
+      "summary": "Давайте більше серветок!",
+      "check": true,
+      "cart": [
+        {
+          "id": "8",
+          "title": "Капрічоза",
+          "price": 200,
+          "weight": 650,
+          "size": 32,
+          "img": "https://salad.com.ua/upload/iblock/64b/8b7psn9cvxfgptqwx1q2673ny41ese9i.png",
+          "quantity": 2
+        },
+        {
+          "id": "10",
+          "title": "Кватро Формаджі",
+          "price": 420,
+          "weight": 920,
+          "size": 50,
+          "img": "https://salad.com.ua/upload/iblock/040/qi8d73xgx0qz5ys8ixafv2v36iarp3rf.png",
+          "quantity": 5
+        }
+      ],
+      "createdAt": "2024-05-08 12:54:41",
+      "status": "wait"
+    },
+    {
+      "id": "54ce",
+      "name": "Аліна",
+      "email": "AlinaCool2413@mail.com.ua",
+      "phone": "380504001245",
+      "address": "м.Київ вул. Перемоги 24",
+      "summary": "Ви надзвичайні!!!🔥",
+      "check": true,
+      "cart": [
+        {
+          "id": "1",
+          "title": "Toscana",
+          "price": 315,
+          "weight": 650,
+          "size": 30,
+          "img": "https://salad.com.ua/upload/resize_cache/iblock/76d/1000_1000_0/5bg18phuxwu5pgmvuhi4hh1wyynd59q4.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "2",
+          "title": "Маргарита",
+          "price": 200,
+          "weight": 500,
+          "size": 30,
+          "img": "https://salad.com.ua/upload/iblock/2ce/1k7azqeblpwprgickpbu49p2te5ra0xs.png",
+          "quantity": 5
+        },
+        {
+          "id": "3",
+          "title": "4 сира",
+          "price": 245,
+          "weight": 420,
+          "size": 32,
+          "img": "https://salad.com.ua/upload/iblock/feb/12fp15ux66lzlh4377l6krg85vw8j1oh.png",
+          "quantity": 3
+        },
+        {
+          "id": "7",
+          "title": "Vege",
+          "price": 420,
+          "weight": 555,
+          "size": 50,
+          "img": "https://salad.com.ua/upload/resize_cache/iblock/90e/1000_1000_0/3iluoo6uh4zp0mvaovb4jo6mf9wjzi3b.png",
+          "quantity": 2
+        }
+      ],
+      "createdAt": "2024-05-08 12:56:56",
+      "status": "wait"
+    }
+  ]
+}

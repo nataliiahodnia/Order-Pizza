@@ -24,7 +24,7 @@ export const Login = () => {
       className="hero min-h-screen"
       style={{
         backgroundImage:
-          "url(https://www.wyseguide.com/wp-content/uploads/2017/03/Sausage-Pesto-Spinach-Pizza-6.jpg)",
+          "url(https://thealmondeater.com/wp-content/uploads/2018/05/Burrata-Pistachio-White-Pizza-4.jpg.webp)",
       }}
     >
       <div className="hero-overlay bg-opacity-50"></div>

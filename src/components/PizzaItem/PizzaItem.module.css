@@ -1,0 +1,21 @@
+.cartText {
+     color: var(--dark-green-color);
+}
+
+.btnAddItem {
+  background-color: var(--green-color);
+  font-size: 18px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  color: var(--white-text-color);
+  transition: background-color 0.3s; /* Перехід для зміни кольору та анімації */
+  animation: dance 1s infinite; /* Додано анімацію */
+}
+
+.btnAddItem:hover {
+  background-color: var(--dark-green-color);
+  color: var(--light-green-color);
+  animation: none; /* Зупиняємо анімацію при наведенні */
+}
