@@ -1,4 +1,5 @@
-import { usePages } from "../store/hooks";
+import { usePages } from "../../store/hooks";
+import css from "./Home.module.css";
 
 export const Home = () => {
   const { setPage } = usePages();
@@ -19,7 +20,7 @@ export const Home = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button onClick={() => setPage("pizzas")} className="btn btn-primary">
+          <button onClick={() => setPage("pizzas")} className={css.btnGetStarted}>
             Get Started
           </button>
         </div>

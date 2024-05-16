@@ -1,5 +1,5 @@
 import { Login } from "./components/Login/Login";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home";
 import { useAuth, usePages } from "./store/hooks";
 import { Pizzas } from "./pages/Pizzas";
 import { Header } from "./components/Header/Header"

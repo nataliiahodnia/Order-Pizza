@@ -54,6 +54,6 @@
 
 .btnLogin:hover {
   background-color: var(--dark-green-color);
-  color: var(--white-text-color);
+  color: var(--light-green-color);
   animation: none; /* Зупиняємо анімацію при наведенні */
 }
