@@ -1,3 +1,10 @@
 .textLogin {
- font-size: 24px;
+  font-size: 24px;
+  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.7);
+}
+
+.mainTextLogin {
+  color: #fdba74;
+  font-size: 32px;
+  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.7);
 }

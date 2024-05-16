@@ -19,19 +19,17 @@ export const Login = () => {
   };
 
   return (
-    <div className="hero min-h-screen bg-cover bg-center relative overflow-hidden">
-      <div className="absolute bg-cover bg-center bg-black opacity-0 "></div>
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url(https://www.wyseguide.com/wp-content/uploads/2017/03/Sausage-Pesto-Spinach-Pizza-6.jpg)",
-        }}
-      ></div>
-
+<div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage:
+          "url(https://www.wyseguide.com/wp-content/uploads/2017/03/Sausage-Pesto-Spinach-Pizza-6.jpg)",
+      }}
+    >
+      <div className="hero-overlay bg-opacity-50"></div>
       <div className=" hero-content grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div className=" text-center lg:text-center text-white tracking-widest animate-slide-up">
-          <h1 className=" text-5xl text-orange-500 tracking-widest">Join us!</h1>
+          <h1 className={css.mainText}>Join us!</h1>
           <p className={css.textLogin}>
             Welcome to our cozy pizzeria, where every slice tells a story of
             tradition, passion, and flavor. Nestled in the heart of the city,
