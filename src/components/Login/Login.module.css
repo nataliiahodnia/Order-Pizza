@@ -1,5 +1,5 @@
 .textLogin {
-  font-size: 24px;
+  font-size: 18px;
   animation: slideIn 1s ease-in-out; /* Додано анімацію slideIn */
 }
 
@@ -17,7 +17,7 @@
 .mainTextLogin {
   color: var(--light-green-color);
   font-weight: 700;
-  font-size: 50px;
+  font-size: 32px;
   text-shadow: 0px 0px 14px rgba(1, 12, 1, 0.149);
   letter-spacing: 0.3ch;
 }
