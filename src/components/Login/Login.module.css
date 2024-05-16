@@ -1,10 +1,59 @@
 .textLogin {
-  font-size: 24px;
-  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.7);
-}
+     font-size: 24px;
+     animation: slideIn 1s ease-in-out; /* Додано анімацію slideIn */
+   }
+   
+   @keyframes slideIn {
+     0% {
+       opacity: 0;
+       transform: translateY(50px);
+     }
+     100% {
+       opacity: 1;
+       transform: translateY(0);
+     }
+   }
+   
 
 .mainTextLogin {
-  color: #fdba74;
-  font-size: 32px;
-  text-shadow: 5px 5px 14px rgba(0, 0, 0, 0.7);
+  color: #28f699;
+  font-weight: 700;
+  font-size: 50px;
+  text-shadow: 0px 0px 14px rgba(1, 12, 1, 0.149);
+  letter-spacing: 0.3ch;
+}
+
+@keyframes dance {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.btnLogin {
+  background-color: #17be73;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  color: white;
+  transition: background-color 0.3s; /* Перехід для зміни кольору та анімації */
+  animation: dance 1s infinite; /* Додано анімацію */
+}
+
+.btnLogin:hover {
+  background-color: #126b43;
+  color: white;
+  animation: none; /* Зупиняємо анімацію при наведенні */
 }

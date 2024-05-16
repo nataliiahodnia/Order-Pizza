@@ -2,6 +2,7 @@ import { Field, Form, Formik } from "formik";
 import { useAuth } from "../../store/hooks";
 import { toast } from "react-toastify";
 import css from "./Login.module.css";
+// import { AiOutlineLogin } from "react-icons/ai";
 
 export const Login = () => {
   const { login } = useAuth();
@@ -19,7 +20,7 @@ export const Login = () => {
   };
 
   return (
-<div
+    <div
       className="hero min-h-screen"
       style={{
         backgroundImage:
@@ -29,7 +30,7 @@ export const Login = () => {
       <div className="hero-overlay bg-opacity-50"></div>
       <div className=" hero-content grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div className=" text-center lg:text-center text-white tracking-widest animate-slide-up">
-          <h1 className={css.mainText}>Join us!</h1>
+          <h1 className={css.mainTextLogin}>Join us!</h1>
           <p className={css.textLogin}>
             Welcome to our cozy pizzeria, where every slice tells a story of
             tradition, passion, and flavor. Nestled in the heart of the city,
@@ -71,10 +72,7 @@ export const Login = () => {
                 </div>
                 <div className="form-control">
                   <div className="form-control">
-                    <button
-                      type="submit"
-                      className="btn btn-primary bg-orange-300 text-white rounded-full border-none overflow-hidden relative transition-colors duration-300 ease-in-out"
-                    >
+                    <button type="submit" className={css.btnLogin}>
                       <span className="bg-gradient-to-r from-orange-500 to-orange-700 "></span>
                       Login
                     </button>
