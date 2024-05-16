@@ -16,7 +16,7 @@
    
 
 .mainTextLogin {
-  color: #28f699;
+  color: var(--green-color);
   font-weight: 700;
   font-size: 50px;
   text-shadow: 0px 0px 14px rgba(1, 12, 1, 0.149);
@@ -42,18 +42,18 @@
 }
 
 .btnLogin {
-  background-color: #17be73;
+  background-color: var(--green-color);
   border-radius: 20px;
   width: 150px;
   height: 50px;
   margin: 0 auto;
-  color: white;
+  color: var(--white-text-color);
   transition: background-color 0.3s; /* Перехід для зміни кольору та анімації */
   animation: dance 1s infinite; /* Додано анімацію */
 }
 
 .btnLogin:hover {
-  background-color: #126b43;
-  color: white;
+  background-color: var(--dark-green-color);
+  color: var(--white-text-color);
   animation: none; /* Зупиняємо анімацію при наведенні */
 }
